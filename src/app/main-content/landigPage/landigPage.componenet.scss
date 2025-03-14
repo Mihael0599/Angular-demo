@@ -1,0 +1,24 @@
+h1 {
+    color: white;
+    font-size: 64px;
+    font-family: 'Raleway';
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../../../public/img/hero_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
