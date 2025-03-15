@@ -1,39 +1,61 @@
+body{
+    display: flex;
+}
+
 nav{
-    width: 100%;
-    padding: 32px;
+    width: calc(100% - 64px);
+    padding-left: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    >img {
-        width: 64px;
-        height: 64px;
-    }
     >div{
-        width: 350px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        >a{
-            &:hover{
-                color: red;
-            }
-        }
+        gap: 30px;
+    }
+}
+
+.logo{
+    >img{
+        height: 64px;
+        width: 64px;
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    & a:hover{
+        color: red;
     }
 }
 
 a{
     text-decoration: none;
     color: white;
+/*     &:hover{
+        color: red;
+    } */
 }
 
 .phone-btn{
     display: flex;
-    justify-content: flex-end !important;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: solid 3px white;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
     >img{
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
     }
     &:hover{
-        color: red;
+        text-decoration: underline;
+        background-color: rgba(255, 0, 0, 0.479);
     }
 }
