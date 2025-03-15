@@ -1,0 +1,41 @@
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    >.title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 64px;
+        color: rgb(141, 4, 4);
+    }
+}
+
+.meals-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 128px);
+    padding: 64px;
+    >div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        >h1{
+            font-size: 56px;
+            text-align: center;
+            text-wrap: wrap;
+            font-family: 'Raleway';
+        }
+    }
+
+    img {
+        height: 128px;
+        width: 128px;
+    }
+}
