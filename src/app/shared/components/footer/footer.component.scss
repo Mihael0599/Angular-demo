@@ -1,0 +1,19 @@
+footer{
+    height: 200px;
+    background-color: #0A141E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    >img{
+        height: 50px;
+    }
+    & a:hover{
+        color: red;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

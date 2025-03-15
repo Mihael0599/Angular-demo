@@ -1,0 +1,39 @@
+section{
+    background-image: url('./../../../../public/img/section_our_menu_bg.jpg');
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+    >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 128px;
+        >h1{
+            font-size: 64px;
+            color: rgb(141, 4, 4);
+        }
+    }
+}
+
+.meals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        >img{
+            height: 352px;
+            width: 352px;
+        }
+    }
+    .spicy-rahmen-container{
+        flex-direction: row-reverse;
+    }
+}
